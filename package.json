@@ -7,7 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node index.js",
     "build:docker": "docker build -t docker-intro .",
-    "start:docker": "docker run -p 50500:50500 -d docker-intro:latest"
+    "start:docker": "docker run -p 50500:8080 -d docker-intro:latest"
   },
   "repository": {
     "type": "git",
