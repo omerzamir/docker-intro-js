@@ -1,26 +1,26 @@
 {
-  "name": "docker-intro",
+  "name": "docker-intro-nodejs",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node index.js",
-    "docker:build": "docker build -t docker-intro:latest .",
-    "docker:start": "docker run -p 50500:8080 --name docker-intro -d docker-intro:latest",
-    "docker:stop": "docker stop docker-intro",
-    "docker:remove": "docker rm --force docker-intro"
+    "docker:build": "docker build -t docker-intro-nodejs:latest .",
+    "docker:start": "docker run -p 50500:8080 --name docker-intro-nodejs -d docker-intro-nodejs:latest",
+    "docker:stop": "docker stop docker-intro-nodejs",
+    "docker:remove": "docker rm --force docker-intro-nodejs"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/omerzamir/docker-intro.git"
+    "url": "git+https://github.com/omerzamir/docker-intro-nodejs.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/omerzamir/docker-intro/issues"
+    "url": "https://github.com/omerzamir/docker-intro-nodejs/issues"
   },
-  "homepage": "https://github.com/omerzamir/docker-intro#readme",
+  "homepage": "https://github.com/omerzamir/docker-intro-nodejs#readme",
   "dependencies": {
     "express": "^4.17.1"
   }
